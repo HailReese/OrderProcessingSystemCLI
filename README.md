@@ -30,6 +30,7 @@ OrderProcessingSystem/
 │
 ├── Program.cs            # Application entry point (Controller simulation)
 └── OrderProcessingSystem.csproj
+```
 
 ## Tech Stack
 •	Language: C# 14
