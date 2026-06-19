@@ -29,6 +29,6 @@ public class OrderService
 			};
 		});
 
-		return discount * _order.TotalSum;
+		return _order.TotalSum - discount * _order.TotalSum;
 	}
 }
