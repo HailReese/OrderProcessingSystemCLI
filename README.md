@@ -33,19 +33,25 @@ OrderProcessingSystem/
 ```
 
 ## Tech Stack
-•	Language: C# 14
-•	Runtime: .NET 10.0.301
-•	IDE: Visual Studio Code (with C# Dev Kit)
-•	OS: macOS (Apple Silicon optimized)
+- Language: C# 14
+- Runtime: .NET 10.0.301
+- IDE: Visual Studio Code (with C# Dev Kit)
+- OS: macOS (Apple Silicon optimized)
 
 ## How to Run
-	1.	Clone the repository:
+	
+1. Clone the repository:
+
 ``` bash
 git clone https://github.com/HailReese/OrderProcessingSystemCLI.git
 ```
 
-	2.	Navigate to the project directory:
+2. Navigate to the project directory:
+``` bash
 cd OrderProcessingSystem
+```
 
-	3.	Restore dependencies and run the application:
+3. Restore dependencies and run the application:
+``` bash
 dotnet run
+```
