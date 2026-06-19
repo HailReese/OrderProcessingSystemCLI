@@ -18,7 +18,7 @@ public class OrderRepository
 	/// Fetches an order by its unique identifier.
 	/// Simulates network latency or a heavy database query execution
 	/// </summary>
-	public async Task<Order?> GetOrderById(int Id)
+	public async Task<Order?> GetOrderByIdAsync(int Id)
 	{
 		await Task.Delay(1000);
 		return _orders.Find(o => o.Id == Id);
